@@ -1,0 +1,70 @@
+@mixin price {
+    background-color: $thema2-color;
+    font-weight: 600;
+    padding: 3px 6px;
+    border-radius: 30px;
+}
+
+@mixin button {
+    background-color: $thema-color;
+    color: white;
+    padding: 4px 8px;
+    border: none;
+    border-radius: 15px;
+}
+
+@mixin background {
+    position: relative;
+
+    .background {
+
+        width: 50%;
+        background-color: $thema-color;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        top: 0;
+        z-index: -3;
+    }
+}
+
+@mixin basket {
+            background-color: white;
+            color: black;
+            padding: 4px;
+            border-radius: 15px 15px 0 15px;
+            margin-left: 5px;
+
+            &:hover {
+                cursor: pointer;
+                transform: scale(1.1);
+                transition: ease .3s;
+            }
+}
+
+@mixin hover {
+    transform: scaleX();
+    &:hover {
+        cursor: pointer;
+        transform: scale(1.1);
+        transition: ease-in .3s;
+    }
+}
+
+@mixin logo {
+    font-size: 32px;
+        p {
+
+            span:nth-child(1) {
+                color: $thema-color;
+                font-family: $title-font;
+
+            }
+
+            span:nth-child(2) {
+                color: orange;
+                font-family: $title-font;
+
+            }
+        }
+}
