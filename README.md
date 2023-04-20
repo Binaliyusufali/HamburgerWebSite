@@ -1,4 +1,4 @@
-# HamburgerWebSite
+
 <h1>Hamburger Web Sitesi</h1>
 
 Bu proje HTML ve CSS ile SASS yapısı kullanılarak geliştirilmiştir. 
@@ -8,4 +8,4 @@ Bu proje HTML ve CSS ile SASS yapısı kullanılarak geliştirilmiştir.
 HTML ve CSS.
 
 <h3>Ekran Görüntüsü</h3>
-![ ](HamburgereAciz.gif)
+<img src="HamburgereAciz.gif">
