@@ -8,4 +8,4 @@ Bu proje HTML ve CSS ile SASS yapısı kullanılarak geliştirilmiştir.
 HTML ve CSS.
 
 <h3>Ekran Görüntüsü</h3>
-![](HamburgereAciz.gif)
+![ ](HamburgereAciz.gif)
